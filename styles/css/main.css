@@ -220,3 +220,7 @@ body {
 .btn-next-block:hover {
     background-color: #54b480;
 }
+
+.map-form {
+    width: 100%;
+}
