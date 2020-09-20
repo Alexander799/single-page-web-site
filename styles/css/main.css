@@ -223,4 +223,31 @@ body {
 
 .map-form {
     width: 100%;
+    height: 100vh;
+}
+
+.map-form form {
+    width: 430px;
+    height: 430px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 430px;
+    background-color: #ffffff;
+}
+
+.map-form form input[type='text'] {
+    margin: 7px;
+    padding: 5px 17px;
+    width: 270px;
+    height: 35px;
+    border: 1px solid #d8d8d8;
+}
+
+.map-form form input[name='message'] {
+    height: 80px;
 }
