@@ -223,15 +223,16 @@ body {
 
 .map-form {
     width: 100%;
-    height: 100vh;
+    height: 635px;
+    position: relative;
 }
 
 .map-form form {
     width: 430px;
     height: 430px;
-    margin: 0 auto;
-    position: relative;
-    bottom: 50vh;
+    position: absolute;
+    bottom: 44px;
+    left: 33%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,4 +251,19 @@ body {
 
 .map-form form input[name='message'] {
     height: 80px;
+}
+
+.footer {
+    width: 1280px;
+    height: 49px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    background-color: #43a06d;
+}
+
+.footer span {
+    font-size: 14px;
+    font-weight: bold;
 }
